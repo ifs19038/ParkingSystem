@@ -69,34 +69,6 @@ namespace ParkingSystem
             }
             return count;
         }
-
-        // public IEnumerable<string> GetRegistrationNumbersByOddEven(bool isOdd)
-        // {
-        //     List<string> registrationNumbers = new List<string>(); 
-        //     for (int i = 0; i < slots.Length; i++)
-        //     {
-        //         Vehicle vehicle = slots[i]; 
-        //         if (vehicle != null)
-        //         {
-        //             string[] registrationParts = vehicle.RegistrationNumber.Split('-');
-        //             string numberPart = registrationParts[registrationParts.Length - 1]; 
-
-        //             int number;
-        //             bool isNumeric = int.TryParse(numberPart, out number);
-
-        //             if (isNumeric)
-        //             {
-        //                 bool isNumberOdd = number % 2 != 0;
-        //                 if (isNumberOdd == isOdd)
-        //                 {
-        //                     registrationNumbers.Add(vehicle.RegistrationNumber); 
-        //                 }
-        //             }
-        //         }
-        //     }
-
-        //     return registrationNumbers;
-        // }
         public IEnumerable<string> GetRegistrationNumbersByOddEven(bool isOdd)
         {
             List<string> registrationNumbers = new List<string>();
