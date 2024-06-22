@@ -61,10 +61,10 @@ ParkingSystem adalah aplikasi konsol sederhana untuk mengelola tempat parkir. Ap
   Hasilnya akan seperti ini : (Semisal kita sudah memasukkan 4 data tambahan)
   ```bash
   Slot 	No. 		Type	Registration No Colour
-  2 		B-9999-XYZ	Motor	Putih
-  3 		D-0001-HIJ 	Mobil	Hitam
-  4 		B-2701-XXX 	Mobil	Biru
-  5 		B-3142-ZZZ 	Motor	Hitam
+  2 	B-9999-XYZ	Motor	Putih
+  3 	D-0001-HIJ 	Mobil	Hitam
+  4 	B-2701-XXX 	Mobil	Biru
+  5 	B-3142-ZZZ 	Motor	Hitam
   ```
 - `type_of_vehicles <type>`: Menghitung jumlah kendaraan berdasarkan jenis.
 
